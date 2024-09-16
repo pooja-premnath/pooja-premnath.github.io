@@ -2,28 +2,28 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Pooja Premnath
     - name: Date of Birth
-      value: 14th March 1879
+      value: February 5, 2003
     - name: Languages
-      value: English, German
+      value: English, Malayalam, Hindi, Sanskrit, Tamil
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Undergraduate Degree
+      institution: Sri Sivasubramaniya Nadar College of Engineering (SSN), Chennai, India
+      year: 2021-2021
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Majoring in Computer Science and Engineering, with Honors in AI/ML
+        - Honors Degree includes six graduate-level courses
+        - title: CGPA
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+            - 9.192/10.9
+            - Department Rank 2/136
+    - title: School
+      institution: DAV Sr. Secondary School, Mogappair, Chennai, India
+      year: 2012-2021
       description:
         - Description 1.
         - Description 2.
