@@ -1,191 +1,175 @@
 {
   "basics": {
-    "name": "Pooja premnath",
-    "label": "Senior Undergraduate Computer Science Student",
-    "primary email": "pooja 2110152 [at] ssn [dot] edu [dot] in",
-    "secondary email": "ppremnat [at] ualberta [dot] ca"
+      "name": "Pooja Premnath",
+      "label": "Senior Undergraduate Computer Science Student",
+      "primary email": "pooja2110152@ssn.edu.in",
+      "secondary email": "ppremnat@ualberta.ca",
+      "phone": "+91-769-583-2205",
+      "github": "http://github.com/Pooja-Premnath",
+      "linkedin": "http://linkedin.com/in/poojapremnath"
   },
-  "profiles": [
-    {
-      "network": "LinkedIn",
-      "username": "poojapremnath",
-      "url": "https://www.linkedin.com/in/poojapremnath/"
-    }
-  ],
-
-  "work": [
-    {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
   "education": [
-    {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
+      {
+          "institution": "Sri Sivasubramaniya Nadar College of Engineering (SSN)",
+          "location": "Chennai, Tamil Nadu, India",
+          "degree": "B.E. Computer Science and Engineering (Honors)",
+          "startDate": "2021",
+          "endDate": "2025",
+          "rank": "3 out of 136",
+          "cgpa": "9.216/10",
+          "details": [
+              "Honors in Artificial Intelligence and Machine Learning with 6 graduate-level courses",
+              "Undergraduate Thesis: A Multimodal Approach to Synthetic ECG and Clinical Report Generation"
+          ]
+      },
+      {
+          "institution": "DAV Sr. Secondary School Mogappair",
+          "location": "Chennai, Tamil Nadu, India",
+          "degree": "Grade 12",
+          "details": [
+              "School Topper in Grade 12 (491/500) and Grade 10 (492/500)",
+              "In the top 1% nationally (CBSE) for both examinations",
+              "Star Pupil Award for all-round excellence"
+          ]
+      }
   ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
+  "researchExperience": [
+      {
+          "organization": "University of Alberta",
+          "location": "Edmonton, Canada",
+          "position": "Research Intern (Part time)",
+          "advisors": [
+              "Dr. Russ Greiner",
+              "Dr. Sunil Kalmady Vasu"
+          ],
+          "startDate": "Sep 2024",
+          "endDate": "Present",
+          "details": [
+              "Working on multimodal explainable systems using counterfactual reasoning in ECG clinical reports",
+              "Incorporating laboratory test results and demographic data"
+          ]
+      },
+      {
+          "organization": "Alberta Machine Intelligence Institute (Amii)",
+          "location": "Edmonton, Canada",
+          "position": "Mitacs Globalink Research Intern",
+          "advisors": [
+              "Dr. Sunil Kalmady Vasu",
+              "Dr. Russ Greiner"
+          ],
+          "startDate": "Jun 2024",
+          "endDate": "Sep 2024",
+          "details": [
+              "Developed Generative AI methods for synthesizing realistic ECG data",
+              "Collaborated with University of Alberta and the Canadian VIGOUR Center"
+          ]
+      },
+      {
+          "organization": "National Institute of Technology, Tiruchirappalli (NIT-Trichy)",
+          "location": "India",
+          "position": "Summer Research Intern",
+          "advisor": "Dr. R. Mohan",
+          "startDate": "May 2023",
+          "endDate": "Aug 2023",
+          "details": [
+              "Worked on Image Super Resolution and Attention Mechanisms for improving the detection of long-range aircraft",
+              "Built a robust system using YOLOv5, ESRGAN, and CBAM"
+          ]
+      },
+      {
+          "organization": "Indian Institute of Technology, Indore (IIT-Indore)",
+          "location": "India",
+          "position": "Research Intern",
+          "advisor": "Dr. Unmesh Khati",
+          "startDate": "Mar 2023",
+          "endDate": "Jul 2023",
+          "details": [
+              "Worked on identifying crops using reflectance values from Sentinel-2A satellite data",
+              "Focused on areas in Madhya Pradesh as part of ESA's Copernicus Program"
+          ]
+      }
   ],
   "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-    }
+      {
+          "title": "Bernstein polynomials and Bezier curves: a novel modeling approach to secure ECG data transmission",
+          "authors": [
+              "Rajagopal, P.",
+              "Premnath, P.",
+              "Arumugam, C."
+          ],
+          "journal": "International Journal of Information Technology",
+          "date": "2024",
+          "url": "https://doi.org/10.1007/s41870-023-01629-5"
+      }
   ],
-  "skills": [
-    {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+  "skills": {
+      "languages": [
+          "Python",
+          "Java",
+          "C",
+          "HTML/CSS",
+          "JavaScript",
+          "R"
+      ],
+      "tools": [
+          "MySQL",
+          "MongoDB",
+          "Git",
+          "Unix Shell",
+          "ReactJS",
+          "NodeJS",
+          "ExpressJS",
+          "Flask",
+          "Wordpress",
+          "Tkinter",
+          "Colab"
+      ],
+      "libraries": [
+          "TensorFlow",
+          "Keras",
+          "PyTorch",
+          "OpenCV",
+          "pandas",
+          "NumPy",
+          "Matplotlib",
+          "NetworkX"
       ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
-    }
+  },
+  "activitiesAndLeadership": [
+      {
+          "organization": "ACM-W SSN Chapter",
+          "position": [
+              "Secretary (2023-25)",
+              "Joint Secretary (2022-23)"
+          ],
+          "details": [
+              "Managing administrative duties and events for the student chapter",
+              "Collaborated with CSpathshala to promote computational thinking in Indian schools",
+              "Chief Editor for the SSN ACM-W monthly newsletter"
+          ]
+      },
+      {
+          "organization": "SSN CS Department",
+          "position": "Student Representative",
+          "details": [
+              "Represented the batch in discussions with faculty and management",
+              "Coordinated seminars, forums, and field trips"
+          ]
+      },
+      {
+          "organization": "Indian Youth Red Cross",
+          "position": "Student Volunteer",
+          "details": [
+              "Organized school visits, managed blood donation camps, and led campus cleaning initiatives"
+          ]
+      },
+      {
+          "organization": "Johnson Public Library",
+          "location": "Hackensack, NJ, USA",
+          "position": "Mentor",
+          "details": [
+              "Supported middle school students with their studies and projects"
+          ]
+      }
   ]
 }
