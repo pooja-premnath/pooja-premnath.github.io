@@ -1,14 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - pooja-premnath
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - pooja-premnath/MediaEval-2023-NewsImages
+  - pooja-premnath/CheckThat-CLEF2024-From-Feature-based-Algorithms-to-Transformers-A-Study-on-Detecting-Subjectivity
+  - pooja-premnath/SemEval2024-Emotion-Classification-in-Hinglish-Code-Mixed-Dialogue-using-Transformer-based-Models
+  - pooja-premnath/Bernstein-Polynomials-and-Bezier-Curves-A-Novel-Modeling-Approach-to-secure-ECG-Data-Transmission
