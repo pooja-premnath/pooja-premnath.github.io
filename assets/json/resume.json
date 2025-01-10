@@ -1,175 +1,127 @@
 {
   "basics": {
-      "name": "Pooja Premnath",
-      "label": "Senior Undergraduate Computer Science Student",
-      "primary email": "pooja2110152@ssn.edu.in",
-      "secondary email": "ppremnat@ualberta.ca",
-      "phone": "+91-769-583-2205",
-      "github": "http://github.com/Pooja-Premnath",
-      "linkedin": "http://linkedin.com/in/poojapremnath"
+    "name": "Pooja Premnath",
+    "label": "Senior Undergraduate Computer Science Student",
+    "primary email": "pooja2110152@ssn.edu.in",
+    "secondary email": "ppremnat@ualberta.ca",
+    "phone": "+91-769-583-2205",
+    "github": "http://github.com/Pooja-Premnath",
+    "linkedin": "http://linkedin.com/in/poojapremnath"
   },
   "education": [
-      {
-          "institution": "Sri Sivasubramaniya Nadar College of Engineering (SSN)",
-          "location": "Chennai, Tamil Nadu, India",
-          "degree": "B.E. Computer Science and Engineering (Honors)",
-          "startDate": "2021",
-          "endDate": "2025",
-          "rank": "3 out of 136",
-          "cgpa": "9.216/10",
-          "details": [
-              "Honors in Artificial Intelligence and Machine Learning with 6 graduate-level courses",
-              "Undergraduate Thesis: A Multimodal Approach to Synthetic ECG and Clinical Report Generation"
-          ]
-      },
-      {
-          "institution": "DAV Sr. Secondary School Mogappair",
-          "location": "Chennai, Tamil Nadu, India",
-          "degree": "Grade 12",
-          "details": [
-              "School Topper in Grade 12 (491/500) and Grade 10 (492/500)",
-              "In the top 1% nationally (CBSE) for both examinations",
-              "Star Pupil Award for all-round excellence"
-          ]
-      }
+    {
+      "institution": "Sri Sivasubramaniya Nadar College of Engineering (SSN)",
+      "location": "Chennai, Tamil Nadu, India",
+      "degree": "B.E. Computer Science and Engineering (Honors)",
+      "startDate": "2021",
+      "endDate": "2025",
+      "rank": "3 out of 136",
+      "cgpa": "9.216/10",
+      "details": [
+        "Honors in Artificial Intelligence and Machine Learning with 6 graduate-level courses",
+        "Undergraduate Thesis: A Multimodal Approach to Synthetic ECG and Clinical Report Generation"
+      ]
+    },
+    {
+      "institution": "DAV Sr. Secondary School Mogappair",
+      "location": "Chennai, Tamil Nadu, India",
+      "degree": "Grade 12",
+      "details": [
+        "School Topper in Grade 12 (491/500) and Grade 10 (492/500)",
+        "In the top 1% nationally (CBSE) for both examinations",
+        "Star Pupil Award for all-round excellence"
+      ]
+    }
   ],
   "researchExperience": [
-      {
-          "organization": "University of Alberta",
-          "location": "Edmonton, Canada",
-          "position": "Research Intern (Part time)",
-          "advisors": [
-              "Dr. Russ Greiner",
-              "Dr. Sunil Kalmady Vasu"
-          ],
-          "startDate": "Sep 2024",
-          "endDate": "Present",
-          "details": [
-              "Working on multimodal explainable systems using counterfactual reasoning in ECG clinical reports",
-              "Incorporating laboratory test results and demographic data"
-          ]
-      },
-      {
-          "organization": "Alberta Machine Intelligence Institute (Amii)",
-          "location": "Edmonton, Canada",
-          "position": "Mitacs Globalink Research Intern",
-          "advisors": [
-              "Dr. Sunil Kalmady Vasu",
-              "Dr. Russ Greiner"
-          ],
-          "startDate": "Jun 2024",
-          "endDate": "Sep 2024",
-          "details": [
-              "Developed Generative AI methods for synthesizing realistic ECG data",
-              "Collaborated with University of Alberta and the Canadian VIGOUR Center"
-          ]
-      },
-      {
-          "organization": "National Institute of Technology, Tiruchirappalli (NIT-Trichy)",
-          "location": "India",
-          "position": "Summer Research Intern",
-          "advisor": "Dr. R. Mohan",
-          "startDate": "May 2023",
-          "endDate": "Aug 2023",
-          "details": [
-              "Worked on Image Super Resolution and Attention Mechanisms for improving the detection of long-range aircraft",
-              "Built a robust system using YOLOv5, ESRGAN, and CBAM"
-          ]
-      },
-      {
-          "organization": "Indian Institute of Technology, Indore (IIT-Indore)",
-          "location": "India",
-          "position": "Research Intern",
-          "advisor": "Dr. Unmesh Khati",
-          "startDate": "Mar 2023",
-          "endDate": "Jul 2023",
-          "details": [
-              "Worked on identifying crops using reflectance values from Sentinel-2A satellite data",
-              "Focused on areas in Madhya Pradesh as part of ESA's Copernicus Program"
-          ]
-      }
+    {
+      "organization": "University of Alberta",
+      "location": "Edmonton, Canada",
+      "position": "Research Intern (Part time)",
+      "advisors": ["Dr. Russ Greiner", "Dr. Sunil Kalmady Vasu"],
+      "startDate": "Sep 2024",
+      "endDate": "Present",
+      "details": [
+        "Working on multimodal explainable systems using counterfactual reasoning in ECG clinical reports",
+        "Incorporating laboratory test results and demographic data"
+      ]
+    },
+    {
+      "organization": "Alberta Machine Intelligence Institute (Amii)",
+      "location": "Edmonton, Canada",
+      "position": "Mitacs Globalink Research Intern",
+      "advisors": ["Dr. Sunil Kalmady Vasu", "Dr. Russ Greiner"],
+      "startDate": "Jun 2024",
+      "endDate": "Sep 2024",
+      "details": [
+        "Developed Generative AI methods for synthesizing realistic ECG data",
+        "Collaborated with University of Alberta and the Canadian VIGOUR Center"
+      ]
+    },
+    {
+      "organization": "National Institute of Technology, Tiruchirappalli (NIT-Trichy)",
+      "location": "India",
+      "position": "Summer Research Intern",
+      "advisor": "Dr. R. Mohan",
+      "startDate": "May 2023",
+      "endDate": "Aug 2023",
+      "details": [
+        "Worked on Image Super Resolution and Attention Mechanisms for improving the detection of long-range aircraft",
+        "Built a robust system using YOLOv5, ESRGAN, and CBAM"
+      ]
+    },
+    {
+      "organization": "Indian Institute of Technology, Indore (IIT-Indore)",
+      "location": "India",
+      "position": "Research Intern",
+      "advisor": "Dr. Unmesh Khati",
+      "startDate": "Mar 2023",
+      "endDate": "Jul 2023",
+      "details": [
+        "Worked on identifying crops using reflectance values from Sentinel-2A satellite data",
+        "Focused on areas in Madhya Pradesh as part of ESA's Copernicus Program"
+      ]
+    }
   ],
   "publications": [
-      {
-          "title": "Bernstein polynomials and Bezier curves: a novel modeling approach to secure ECG data transmission",
-          "authors": [
-              "Rajagopal, P.",
-              "Premnath, P.",
-              "Arumugam, C."
-          ],
-          "journal": "International Journal of Information Technology",
-          "date": "2024",
-          "url": "https://doi.org/10.1007/s41870-023-01629-5"
-      }
+    {
+      "title": "Bernstein polynomials and Bezier curves: a novel modeling approach to secure ECG data transmission",
+      "authors": ["Rajagopal, P.", "Premnath, P.", "Arumugam, C."],
+      "journal": "International Journal of Information Technology",
+      "date": "2024",
+      "url": "https://doi.org/10.1007/s41870-023-01629-5"
+    }
   ],
   "skills": {
-      "languages": [
-          "Python",
-          "Java",
-          "C",
-          "HTML/CSS",
-          "JavaScript",
-          "R"
-      ],
-      "tools": [
-          "MySQL",
-          "MongoDB",
-          "Git",
-          "Unix Shell",
-          "ReactJS",
-          "NodeJS",
-          "ExpressJS",
-          "Flask",
-          "Wordpress",
-          "Tkinter",
-          "Colab"
-      ],
-      "libraries": [
-          "TensorFlow",
-          "Keras",
-          "PyTorch",
-          "OpenCV",
-          "pandas",
-          "NumPy",
-          "Matplotlib",
-          "NetworkX"
-      ]
+    "languages": ["Python", "Java", "C", "HTML/CSS", "JavaScript", "R"],
+    "tools": ["MySQL", "MongoDB", "Git", "Unix Shell", "ReactJS", "NodeJS", "ExpressJS", "Flask", "Wordpress", "Tkinter", "Colab"],
+    "libraries": ["TensorFlow", "Keras", "PyTorch", "OpenCV", "pandas", "NumPy", "Matplotlib", "NetworkX"]
   },
   "activitiesAndLeadership": [
-      {
-          "organization": "ACM-W SSN Chapter",
-          "position": [
-              "Secretary (2023-25)",
-              "Joint Secretary (2022-23)"
-          ],
-          "details": [
-              "Managing administrative duties and events for the student chapter",
-              "Collaborated with CSpathshala to promote computational thinking in Indian schools",
-              "Chief Editor for the SSN ACM-W monthly newsletter"
-          ]
-      },
-      {
-          "organization": "SSN CS Department",
-          "position": "Student Representative",
-          "details": [
-              "Represented the batch in discussions with faculty and management",
-              "Coordinated seminars, forums, and field trips"
-          ]
-      },
-      {
-          "organization": "Indian Youth Red Cross",
-          "position": "Student Volunteer",
-          "details": [
-              "Organized school visits, managed blood donation camps, and led campus cleaning initiatives"
-          ]
-      },
-      {
-          "organization": "Johnson Public Library",
-          "location": "Hackensack, NJ, USA",
-          "position": "Mentor",
-          "details": [
-              "Supported middle school students with their studies and projects"
-          ]
-      }
+    {
+      "organization": "ACM-W SSN Chapter",
+      "position": ["Secretary (2023-25)", "Joint Secretary (2022-23)"],
+      "details": [
+        "Managing administrative duties and events for the student chapter",
+        "Collaborated with CSpathshala to promote computational thinking in Indian schools",
+        "Chief Editor for the SSN ACM-W monthly newsletter"
+      ]
+    },
+    {
+      "organization": "SSN CS Department",
+      "position": "Student Representative",
+      "details": ["Represented the batch in discussions with faculty and management", "Coordinated seminars, forums, and field trips"]
+    },
+    {
+      "organization": "Indian Youth Red Cross",
+      "position": "Student Volunteer",
+      "details": ["Organized school visits, managed blood donation camps, and led campus cleaning initiatives"]
+    },
+    {
+      "organization": "Johnson Public Library",
+      "location": "Hackensack, NJ, USA",
+      "position": "Mentor",
+      "details": ["Supported middle school students with their studies and projects"]
+    }
   ]
 }
