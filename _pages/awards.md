@@ -7,6 +7,15 @@ author_profile: true
 
 ## Fellowships & Grants
 
+<div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;">
+  <img src="/images/ieee_india_council.png" alt="IEEE India Council Logo" style="width: 200px; flex-shrink: 0;">
+  <div>
+    <strong>Shri Pralhad P Chhabria Best Graduate Student Award 2025</strong> | <em>2026</em><br>
+    Awarded the Shri Pralhad P. Chhabria Best Graduate Student Award from the IEEE India Council, Hope Foundation and Research Centre (HFRC), IEEE Pune Section, and IEEE Women In Engineering Affinity Group, with a prize of INR 125,000. This award, established in 2017 in memory of Late Shri Pralhad P. Chhabria, Founder Chairman of Finolex Group of Companies, recognizes the top female graduate in Science, Technology, and Engineering across India for outstanding academic achievement and contributions to research, innovation, institute, and community. <a href="https://www.hfrc-ieeeawards.org/award-winners/" target="_blank">Award Details</a>
+  </div>
+</div>
+
+
 ![IndiaAI Logo](/images/india_ai.jpg){: width="200" align="left" style="margin-right: 20px;"}
 **IndiaAI Mission Fellowship** | *2024*  
 Awarded the IndiaAI Mission fellowship with a grant of INR 100,000 from the Government of India's Ministry of Electronics & Information Technology (MeitY) to implement a text-to-SQL question answering system for medical records. This fellowship is given to ~100 undergraduate AI researchers from the top 50 engineering colleges in India.
