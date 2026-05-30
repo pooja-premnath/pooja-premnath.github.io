@@ -35,6 +35,7 @@ author_profile: true
   width: 100%;
   height: auto;
   display: block;
+  cursor: zoom-in;
 }
 
 .gallery-caption {
@@ -43,16 +44,82 @@ author_profile: true
   line-height: 1.5;
 }
 
-/* For images that should span 2 columns */
 .gallery-item.large {
   grid-column: span 2;
 }
 
-/* For tall images that should span 2 rows */
 .gallery-item.tall {
   grid-row: span 2;
 }
+
+/* Lightbox */
+.lightbox-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.9);
+  z-index: 9999;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px;
+  cursor: zoom-out;
+}
+.lightbox-overlay.active {
+  display: flex;
+}
+.lightbox-overlay img {
+  max-width: 90vw;
+  max-height: 80vh;
+  border-radius: 8px;
+  object-fit: contain;
+  box-shadow: 0 8px 40px rgba(0,0,0,0.6);
+  cursor: default;
+}
+.lightbox-close {
+  position: fixed;
+  top: 16px;
+  right: 24px;
+  color: white;
+  font-size: 40px;
+  font-weight: 300;
+  cursor: pointer;
+  line-height: 1;
+  user-select: none;
+}
+.lightbox-caption {
+  color: rgba(255,255,255,0.85);
+  font-size: 13px;
+  text-align: center;
+  max-width: 600px;
+  line-height: 1.5;
+}
 </style>
+
+<!-- Lightbox -->
+<div class="lightbox-overlay" id="lightbox" onclick="closeLightbox(event)">
+  <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+  <img id="lightbox-img" src="" alt="">
+  <div class="lightbox-caption" id="lightbox-caption"></div>
+</div>
+
+<script>
+function openLightbox(src, caption) {
+  document.getElementById('lightbox-img').src = src;
+  document.getElementById('lightbox-caption').textContent = caption;
+  document.getElementById('lightbox').classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+function closeLightbox(e) {
+  if (e && e.target === document.getElementById('lightbox-img')) return;
+  document.getElementById('lightbox').classList.remove('active');
+  document.body.style.overflow = '';
+}
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') closeLightbox();
+});
+</script>
 
 <div class="gallery-intro">
   <p>I love taking photos - whether it's from conferences, lab work, or just exploring new places. I've been fortunate to travel, present my work, conduct research at different labs, and meet some really amazing people during my undergrad. Here are some photos from everything along the way.</p>
@@ -61,98 +128,112 @@ author_profile: true
 <div class="gallery-grid">
   
   <div class="gallery-item tall">
-    <img src="/images/gallery/netmob.jpeg" alt="Netmob">
+    <img src="/images/gallery/netmob.jpeg" alt="Netmob" onclick="openLightbox(this.src, 'At NetMob 2023 in Madrid, presenting our research on network slicing for bandwidth allocation, with time-series forecasting methods. From left: Me, and Dr. Shahul Hamead.')">
     <div class="gallery-caption">
      At NetMob 2023 in Madrid, presenting our research on network slicing for bandwidth allocation, with time-series forecasting methods. From left: Me, and Dr. Shahul Hamead. 
     </div>
   </div>
   
   <div class="gallery-item">
-    <img src="/images/gallery/mitacs.jpeg" alt="Mitacs">
+    <img src="/images/gallery/mitacs.jpeg" alt="Mitacs" onclick="openLightbox(this.src, 'I was a Mitacs Globalink Research Intern, at the University of Alberta, in the summer of 2024. Our cohort had students from ~20 countries from all over the world!')">
     <div class="gallery-caption">
      I was a Mitacs Globalink Research Intern, at the University of Alberta, in the summer of 2024. Our cohort had students from ~20 countries from all over the world!
     </div>
   </div>
   
   <div class="gallery-item large">
-    <img src="/images/gallery/athabasca.jpeg" alt="Athabasca">
+    <img src="/images/gallery/athabasca.jpeg" alt="Athabasca" onclick="openLightbox(this.src, 'The Computing Science Department at Athabasca Hall, University of Alberta. The building has this beautiful old castle-style architecture.')">
     <div class="gallery-caption">
     The Computing Science Department at Athabasca Hall, University of Alberta. The building has this beautiful old castle-style architecture.
     </div>
   </div>
   
   <div class="gallery-item">
-    <img src="/images/gallery/reverseexpo.jpeg" alt="ReverseExpo">
+    <img src="/images/gallery/reverseexpo.jpeg" alt="ReverseExpo" onclick="openLightbox(this.src, 'I had the opportunity to present my research on generative methods for ECG data synthesis, at ReverseEXPO. Reverse EXPO is an annual meeting organized by the Department of Computing Science at the University of Alberta to showcase the department\'s recent AI research. In the picture are: Tayyib Ul Hassan and me (from left).')">
     <div class="gallery-caption">
       I had the opportunity to present my research on generative methods for ECG data synthesis, at ReverseEXPO. Reverse EXPO is an annual meeting organized by the Department of Computing Science at the University of Alberta to showcase the department's recent AI research. In the picture are: Tayyib Ul Hassan and me (from left). 
     </div>
   </div>
   
   <div class="gallery-item large">
-    <img src="/images/gallery/banff.jpeg" alt="Banff">
+    <img src="/images/gallery/banff.jpeg" alt="Banff" onclick="openLightbox(this.src, 'Banff Avenue, Banff National Park. Cold, crisp mountain air, and the Rockies in the background.')">
     <div class="gallery-caption">
       Banff Avenue, Banff National Park. Cold, crisp mountain air, and the Rockies in the background. 
     </div>
   </div>
   
   <div class="gallery-item tall">
-    <img src="/images/gallery/toledo.jpeg" alt="Toledo">
+    <img src="/images/gallery/toledo.jpeg" alt="Toledo" onclick="openLightbox(this.src, 'The Transparante at the Catedral Primada de Toledo, Toledo, Spain. The intricacy and scale of the piece is stunning. For context on how tall the piece is, look at the humans in the bottom right of the picture.')">
     <div class="gallery-caption">
       The Transparante at the Catedral Primada de Toledo, Toledo, Spain. The intricacy and scale of the piece is stunning. For context on how tall the piece is, look at the humans in the bottom right of the picture.  
     </div>
   </div>
   
   <div class="gallery-item large">
-    <img src="/images/gallery/russmeeting.jpeg" alt="Russ Group">
+    <img src="/images/gallery/russmeeting.jpeg" alt="Russ Group" onclick="openLightbox(this.src, 'At one of the weekly meetings of the Greiner Lab, at the University of Alberta. We talk about research progress, discuss interesting papers, catch up with old lab members, and enjoy some cookies. From left: Animesh Kumar Paul, me, Tayyib Ul Hassan, Harrison Fah, Dr. Russ Greiner, Anuradha Krishnan and Eric Carpenter.')">
     <div class="gallery-caption">
       At one of the weekly meetings of the Greiner Lab, at the University of Alberta. We talk about research progress, discuss interesting papers, catch up with old lab members, and enjoy some cookies. From left: Animesh Kumar Paul, me, Tayyib Ul Hassan, Harrison Fah , Dr. Russ Greiner, Anuradha Krishnan and Eric Carpenter. 
     </div>
   </div>
   
   <div class="gallery-item">
-    <img src="/images/gallery/fountain.jpeg" alt="SSN">
+    <img src="/images/gallery/fountain.jpeg" alt="SSN" onclick="openLightbox(this.src, 'The fountain, surrounded by bougainvillea, in the center of the piazza at SSN College of Engineering, my alma mater.')">
     <div class="gallery-caption">
      The fountain, surrounded by bougainvillea, in the center of the piazza at SSN College of Engineering, my alma mater. 
     </div>
   </div>
 
   <div class="gallery-item large">
-    <img src="/images/gallery/madrid.jpeg" alt="Madrid">
+    <img src="/images/gallery/madrid.jpeg" alt="Madrid" onclick="openLightbox(this.src, 'Palacio de Cristal, Retiro Park, Madrid. Straight out of a fairytale.')">
     <div class="gallery-caption">
      Palacio de Cristal, Retiro Park, Madrid. Straight out of a fairytale. 
     </div>
   </div>
   
   <div class="gallery-item">
-    <img src="/images/gallery/russgroup.jpeg" alt="Russ Group">
+    <img src="/images/gallery/russgroup.jpeg" alt="Russ Group" onclick="openLightbox(this.src, 'The Greiner Lab out for a farewell dinner as the interns (including me) were heading back home. In the photo, from left: Me, Anuradha Krishnan, Ali Parsaee, Eric Carpenter, Tayyib Ul Hassan, Harrison Fah, Weijie Sun, Dr. Russ Greiner, Saiful Islam, Animesh Kumar Paul and Fei Wang.')">
     <div class="gallery-caption">
      The Greiner Lab out for a farewell dinner as the interns (including me) were heading back home. In the photo, from left: Me, Anuradha Krishnan, Ali Parsaee, Eric Carpenter, Tayyib Ul Hassan, Harrison Fah, Weijie Sun, Dr. Russ Greiner, Saiful Islam, Animesh Kumar Paul and Fei Wang. 
     </div>
   </div>
 
   <div class="gallery-item large">
-    <img src="/images/gallery/clock.jpeg" alt="Clock">
+    <img src="/images/gallery/clock.jpeg" alt="Clock" onclick="openLightbox(this.src, 'The clock tower on a bright, sunny day at SSN.')">
     <div class="gallery-caption">
       The clock tower on a bright, sunny day at SSN. 
     </div>
   </div>
 
   <div class="gallery-item large">
-    <img src="/images/gallery/amii.jpeg" alt="Amii">
+    <img src="/images/gallery/graduation2.jpg" alt="Graduation" onclick="openLightbox(this.src, 'Graduating with my Bachelor\'s of Engineering in Computer Science and Engineering, with an Honors degree in Artificial Intelligence and Machine Learning, from SSN College of Engineering, during the 23rd Graduation Day. I was also the Department Silver Medallist!')">
+    <div class="gallery-caption">
+    Graduating with my Bachelor's of Engineering in Computer Science and Engineering, with an Honors degree in Artificial Intelligence and Machine Learning, from SSN College of Engineering, during the 23rd Graduation Day. I was also the Department Silver Medallist!
+    </div>
+  </div>
+
+  <div class="gallery-item">
+    <img src="/images/gallery/ieee_pralhad.jpeg" alt="IEEE" onclick="openLightbox(this.src, 'In Pune, after receiving the IEEE Pralhad P. Chhabria Best Graduate Student Award in March 2026.')">
+    <div class="gallery-caption">
+    In Pune, after receiving the IEEE Pralhad P. Chhabria Best Graduate Student Award in March 2026. 
+    </div>
+  </div>
+
+  <div class="gallery-item large">
+    <img src="/images/gallery/amii.jpeg" alt="Amii" onclick="openLightbox(this.src, 'The co-working space at the Alberta Machine Intelligence Institute (Amii), where I worked on most days, during my time in Canada.')">
     <div class="gallery-caption">
       The co-working space at the Alberta Machine Intelligence Institute (Amii), where I worked on most days, during my time in Canada. 
     </div>
   </div>
 
   <div class="gallery-item tall">
-    <img src="/images/gallery/church.jpeg" alt="Church">
+    <img src="/images/gallery/church.jpeg" alt="Church" onclick="openLightbox(this.src, 'A quaint little church on the backwaters of Kumarakom, Kerala, India. It was quite a stormy day to be out on a boat, and the water was very choppy.')">
     <div class="gallery-caption">
       A quaint little church on the backwaters of Kumarakom, Kerala, India. It was quite a stormy day to be out on a boat, and the water was very choppy. 
     </div>
   </div>
 
   <div class="gallery-item large">
-    <img src="/images/gallery/sulphur.jpeg" alt="Sulphur Mountain">
+    <img src="/images/gallery/sulphur.jpeg" alt="Sulphur Mountain" onclick="openLightbox(this.src, 'On the Banff Gondola up Sulphur Mountain. Turns out I\'m more scared of heights than I thought - the open windows and wind didn\'t help. But the views? Absolutely worth it.')">
     <div class="gallery-caption">
      On the Banff Gondola up Sulphur Mountain. Turns out I'm more scared of heights than I thought-the open windows and wind didn't help. But the views? Absolutely worth it.
     </div>
