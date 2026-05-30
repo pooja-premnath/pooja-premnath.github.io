@@ -126,6 +126,21 @@ document.addEventListener('keydown', function(e) {
 </div>
 
 <div class="gallery-grid">
+
+
+  <div class="gallery-item large">
+    <img src="/images/gallery/graduation2.jpg" alt="Graduation" onclick="openLightbox(this.src, 'Graduating with my Bachelor\'s of Engineering in Computer Science and Engineering, with an Honors degree in Artificial Intelligence and Machine Learning, from SSN College of Engineering, during the 23rd Graduation Day. I was also the Department Silver Medallist!')">
+    <div class="gallery-caption">
+    Graduating with a Bachelor of Engineering in Computer Science and Engineering (Honors in AI & ML) from SSN College of Engineering, 26th Graduation Day. Department Silver Medallist!
+    </div>
+  </div>
+
+  <div class="gallery-item">
+    <img src="/images/gallery/ieee_pralhad.jpeg" alt="IEEE" onclick="openLightbox(this.src, 'In Pune, after receiving the IEEE Pralhad P. Chhabria Best Graduate Student Award in March 2026.')">
+    <div class="gallery-caption">
+    In Pune, after receiving the IEEE Pralhad P. Chhabria Best Graduate Student Award in March 2026. 
+    </div>
+  </div>
   
   <div class="gallery-item tall">
     <img src="/images/gallery/netmob.jpeg" alt="Netmob" onclick="openLightbox(this.src, 'At NetMob 2023 in Madrid, presenting our research on network slicing for bandwidth allocation, with time-series forecasting methods. From left: Me, and Dr. Shahul Hamead.')">
@@ -204,19 +219,7 @@ document.addEventListener('keydown', function(e) {
     </div>
   </div>
 
-  <div class="gallery-item large">
-    <img src="/images/gallery/graduation2.jpg" alt="Graduation" onclick="openLightbox(this.src, 'Graduating with my Bachelor\'s of Engineering in Computer Science and Engineering, with an Honors degree in Artificial Intelligence and Machine Learning, from SSN College of Engineering, during the 23rd Graduation Day. I was also the Department Silver Medallist!')">
-    <div class="gallery-caption">
-    Graduating with my Bachelor's of Engineering in Computer Science and Engineering, with an Honors degree in Artificial Intelligence and Machine Learning, from SSN College of Engineering, during the 26th Graduation Day. I was also the Department Silver Medallist!
-    </div>
-  </div>
-
-  <div class="gallery-item">
-    <img src="/images/gallery/ieee_pralhad.jpeg" alt="IEEE" onclick="openLightbox(this.src, 'In Pune, after receiving the IEEE Pralhad P. Chhabria Best Graduate Student Award in March 2026.')">
-    <div class="gallery-caption">
-    In Pune, after receiving the IEEE Pralhad P. Chhabria Best Graduate Student Award in March 2026. 
-    </div>
-  </div>
+  
 
   <div class="gallery-item large">
     <img src="/images/gallery/amii.jpeg" alt="Amii" onclick="openLightbox(this.src, 'The co-working space at the Alberta Machine Intelligence Institute (Amii), where I worked on most days, during my time in Canada.')">
