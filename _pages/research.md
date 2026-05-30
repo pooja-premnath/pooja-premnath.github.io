@@ -91,7 +91,7 @@ author_profile: true
       Developed a natural language interface for querying EHR databases, enabling clinicians without SQL expertise to retrieve patient information efficiently. Evaluated multiple state-of-the-art models including T5, BART, and PICARD on the MIMIC-IV dataset. PICARD achieved best performance through constrained decoding that enforces syntactic and schema consistency. Conducted comprehensive ablation studies and identified schema-awareness, pre-training, and constrained decoding as key components.
     </p>
     <p style="margin-top: 15px;">
-      <a href="/files/indiaai_poster.pdf" target="_blank">Poster</a>
+      <a href="/files/IndiaAI_Poster.pdf" target="_blank">Poster</a>
     </p>
   </div>
 
