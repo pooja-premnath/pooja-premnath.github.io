@@ -207,7 +207,7 @@ document.addEventListener('keydown', function(e) {
   <div class="gallery-item large">
     <img src="/images/gallery/graduation2.jpg" alt="Graduation" onclick="openLightbox(this.src, 'Graduating with my Bachelor\'s of Engineering in Computer Science and Engineering, with an Honors degree in Artificial Intelligence and Machine Learning, from SSN College of Engineering, during the 23rd Graduation Day. I was also the Department Silver Medallist!')">
     <div class="gallery-caption">
-    Graduating with my Bachelor's of Engineering in Computer Science and Engineering, with an Honors degree in Artificial Intelligence and Machine Learning, from SSN College of Engineering, during the 23rd Graduation Day. I was also the Department Silver Medallist!
+    Graduating with my Bachelor's of Engineering in Computer Science and Engineering, with an Honors degree in Artificial Intelligence and Machine Learning, from SSN College of Engineering, during the 26th Graduation Day. I was also the Department Silver Medallist!
     </div>
   </div>
 
