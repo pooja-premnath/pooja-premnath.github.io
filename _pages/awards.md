@@ -23,7 +23,7 @@ One of six students, and **only undergraduate**, to receive a grant to travel to
 ![United Nations Millennium Fellowship](/images/mn.png){: width="200" align="left" style="margin-right: 20px;"}
 **United Nations Millennium Fellow - Emerging Technologist** | *2023*  
 Part of the 2023 Class of the Millennium Fellowship, organized jointly by the United Nations Academic Impact (UNAI) and MCN, to develop solutions to promote Sustainable Development Goals. Selected from 44,000 applicants worldwide.  
-[Fellowship Profile](https://www.millenniumfellows.org/fellow/2023/snuadmissions/pooja-premnath)
+[Fellowship Profile](https://www.millenniumfellows.org/fellow/2023/snuadmissions/pooja-premnath){:target="_blank"}
 
 
 ![SSN IFSP](/images/ssn.png){: width="200" align="left" style="margin-right: 20px;"}

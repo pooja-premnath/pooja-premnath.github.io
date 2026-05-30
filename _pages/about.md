@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I'm a Project Engineer at the [Image Guided Robotic Systems Lab](https://igrs.hticlab.org/htic-home) at the Indian Institute of Technology, Madras (IIT-M), where I develop computational algorithms for surgical navigation systems. My work focuses on camera calibration, pose estimation, and geometric optimization for precision medical robotics.
+I'm a Project Engineer at the Image Guided Robotic Systems Lab, a group within the [Healthcare Technology Innovation Centre](https://www.hticiitm.org/){:target="_blank"}, at the Indian Institute of Technology, Madras (IIT-M), where I develop computational algorithms for surgical navigation systems. My work focuses on camera calibration, pose estimation, and geometric optimization for precision medical robotics.
 
-I completed my undergraduate degree in Computer Science and Engineering at [SSN College of Engineering](https://www.ssn.edu.in/), with an Honors degree in Artificial Intelligence and Machine Learning. During summer 2024, I was a Mitacs Globalink Research Intern at the University of Alberta, working with [Dr. Sunil Kalmady Vasu](https://apps.ualberta.ca/directory/person/kalmady) and [Dr. Russ Greiner](https://apps.ualberta.ca/directory/person/rgreiner) on generative models for ECG synthesis.
+I completed my undergraduate degree in Computer Science and Engineering at [SSN College of Engineering](https://www.ssn.edu.in/){:target="_blank"}, with an Honors degree in Artificial Intelligence and Machine Learning. During summer 2024, I was a Mitacs Globalink Research Intern at the University of Alberta, working with [Dr. Sunil Kalmady Vasu](https://apps.ualberta.ca/directory/person/kalmady){:target="_blank"} and [Dr. Russ Greiner](https://apps.ualberta.ca/directory/person/rgreiner){:target="_blank"} on generative models for ECG synthesis.
 
 My undergraduate research focused on natural language processing systems for healthcare, particularly for low-resource Indian languages. My current work has shifted toward applying rigorous mathematical methods to precision engineering problems. I'm particularly interested in multiple view geometry, geometric computer vision, nonlinear optimization, inverse problems, numerical methods, and computational precision medicine.
 
@@ -42,7 +42,7 @@ My undergraduate research focused on natural language processing systems for hea
     <strong>Mitacs Globalink Research Intern</strong><br>
     <em>University of Alberta & Alberta Machine Intelligence Institute (Amii) | Jun 2024 - Dec 2024</em><br>
     Edmonton, Alberta, Canada<br>
-    Advisors: <a href="https://apps.ualberta.ca/directory/person/kalmady">Dr. Sunil Kalmady Vasu</a>, <a href="https://apps.ualberta.ca/directory/person/rgreiner">Dr. Russ Greiner</a>
+    Advisors: <a href="https://apps.ualberta.ca/directory/person/kalmady" target="_blank">Dr. Sunil Kalmady Vasu</a>, <a href="https://apps.ualberta.ca/directory/person/rgreiner" target="_blank">Dr. Russ Greiner</a>
     <ul>
       <li>Developed generative AI methods for synthesizing realistic ECG data in collaboration with the University of Alberta and the Canadian VIGOUR Center (CVC)</li>
     </ul>
@@ -59,7 +59,7 @@ My undergraduate research focused on natural language processing systems for hea
     <strong>Summer Research Intern</strong><br>
     <em>National Institute of Technology, Tiruchirappalli (NIT-Trichy) | May 2023 - Aug 2023</em><br>
     Tiruchirappalli, Tamil Nadu, India<br>
-    Advisor: <a href="https://www.nitt.edu/home/academics/departments/cse/faculty/mohan/">Dr. R. Mohan</a>
+    Advisor: <a href="https://www.nitt.edu/home/academics/departments/cse/faculty/mohan/" target="_blank">Dr. R. Mohan</a>
     <ul>
       <li>Worked on image super-resolution and attention mechanism techniques for improving detection of long-range aircraft</li>
       <li>Built a robust detection system using YOLOv5, ESRGAN, and CBAM</li>
@@ -77,7 +77,7 @@ My undergraduate research focused on natural language processing systems for hea
     <strong>Research Intern</strong><br>
     <em>Indian Institute of Technology, Indore (IIT-Indore) | Mar 2023 - Jul 2023</em><br>
     Indore, Madhya Pradesh, India<br>
-    Advisor: <a href="https://sites.google.com/iiti.ac.in/unmesh/bio">Dr. Unmesh Khati</a>
+    Advisor: <a href="https://sites.google.com/iiti.ac.in/unmesh/bio" target="_blank">Dr. Unmesh Khati</a>
     <ul>
       <li>Worked in the Department of Astronomy, Astrophysics and Space Engineering (DAASE) on crop identification using Sentinel-2A satellite reflectance data from ESA's Copernicus Program</li>
     </ul>
@@ -102,5 +102,3 @@ My undergraduate research focused on natural language processing systems for hea
     </ul>
   </div>
 </div>
-
-
